@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/mi-Logo.png">
+    <title>MOVIE SEARCH</title>
+</head>
+<body>
+    <div class="img-brand">
+        <img src="./assets/mi-logo.png" alt="">
+    </div>
+    <div class="search-bckg">
+        <label for="">Search movie:</label>
+        <input type="text" title="search" placeholder="Search Movie Title...">
+        <div class="show-films">
+            <img src="./assets/Eclipse-1s-200px.svg" alt="" class="loader">
+        </div>
+    </div>
+    <section class="film">
+        <img src="./assets/Eclipse-1s-200px.svg" alt="" class="loader-one">
+        <div class="img-film"></div>
+        <div class="info-film"></div>
+    </section>
+    <template id="template-one">
+        <h1 class="title"></h1>
+        <h3>Genre:</h3><p class="genre"></p><br><br><br>
+        <h3>Writer:</h3><p class="writer"></p><br><br><br>
+        <h3>Actors:</h3><p class="actors"></p><br><br><br>
+        <h3>Plot:</h3><p class="plot"></p><br><br><br>
+        <h3><i>Language:</i></h3><p class="language"></p><br><br><br>
+    </template>
+    <template id="template-two">
+        <div class="container-search">
+            <div class="img-search">
+                <img src="" alt="">
+            </div>
+            <div class="info-search">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+    </template>
+<script src="./js/main.js" type="module"></script>
+</body>
+</html>
